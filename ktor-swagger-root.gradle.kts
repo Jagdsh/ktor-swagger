@@ -32,7 +32,7 @@ allprojects {
         plugin("com.diffplug.gradle.spotless")
     }
     group = "de.nielsfalk.ktor"
-    version = "0.7.0"
+    version = "0.8.0"
 
     repositories {
         mavenCentral()
@@ -42,7 +42,7 @@ allprojects {
 }
 
 fun DependencyHandler.ktor(name: String) =
-    create(group = "io.ktor", name = name, version = "1.3.2")
+    create(group = "io.ktor", name = name, version = "1.4.0")
 
 subprojects {
     apply {
